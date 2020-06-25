@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin:0;
+}
+#select{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgba(108, 122, 224,1);
+    padding-right: 3vw;  
+}
+.show{
+    margin: 2% 2% 2% 2%;
+    color: white;
+    text-decoration: none;
+    
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+}
+#signup-form, #login-form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30vw;
+    align-items: left;
+    justify-content: center; 
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 2%;
+    text-align: left;
+    border: 1px solid #a5a2a2;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #a5a5a5;
+    margin: 0 5%;
+}
+
+.form-field{
+    width: auto;
+    border: none;
+    border-bottom: 1px solid #a5a2a2;
+    display: flex;
+    margin-bottom: 5%;
+}
+i{
+    margin-top: 3%;
+}
+.input-field{
+    width: 25vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    margin: 1% 2%;
+}
+.input-field:focus-within{
+    outline: none;
+}
+#reg-button, #log-button{
+    height:5vh;
+    width: 15vw;
+    text-align: center;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 3px;
+    margin:7% 0;
+    background-color: rgba(108, 122, 224,0.8);
+    box-shadow: 2px 2px 5px #a5a2a2;
+}
+#reg-button:hover, #log-button:hover{
+    box-shadow: 4px 4px 10px #a5a5a5;
+}
+#users{
+    margin: 0 5%;
+    height: auto;
+    width: 30vw;
+    padding: 2%;
+    border: 1px solid #a5a2a2;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #a5a5a5;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+table {
+    font-family: 'Lato', sans-serif;
+    border-collapse: collapse;
+    width: 30vw;  
+}
+th{
+    background-color: rgba(108, 122, 224,0.9);
+    color: white;
+    padding:2% 1%;
+    text-align: center;
+    border: 1px solid rgb(108, 122, 224);
+}
+td{
+    border: 1px solid #dddddd;
+    padding:3% 1%;
+    text-align: left;
+} 
+tr:nth-child(even) {
+    background-color: rgba(108, 122, 224,0.2);
+}
